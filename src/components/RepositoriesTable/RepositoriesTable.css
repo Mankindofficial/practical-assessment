@@ -1,0 +1,106 @@
+.page_wrapper {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.page_body {
+  width: 100%;
+  overflow-x: auto;
+  padding-bottom: 5rem;
+}
+
+.heading {
+  font-size: 1.5rem;
+  margin: 2rem 0;
+}
+
+.description {
+  margin: -1rem 0 3rem;
+}
+
+.input_wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 2rem 0rem;
+}
+
+.input_wrapper input {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.table_wrapper {
+  width: 100%;
+  display: flex;
+  overflow-x: auto;
+  padding-bottom: 5rem;
+}
+
+.table {
+  text-align: left;
+  border-spacing: 0 0.25rem;
+  margin: 0 auto;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.table_head {
+  background: #fff;
+  text-align: left;
+  border-bottom: 4px solid #eceffa;
+}
+
+.table_head th {
+  border: none;
+  color: gray;
+  padding: 30px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.table_body {
+  background: #fff;
+}
+
+.table_body a {
+  color: inherit;
+}
+
+.table_body td {
+  font-size: 0.9rem;
+  color: rgb(36, 36, 36);
+  border: none;
+  padding: 30px;
+  vertical-align: top;
+}
+.table_body td.description {
+  padding: 10px;
+  color: #333;
+  font-size: 0.8rem;
+}
+
+.email_section {
+  font-size: 12px;
+  color: rgba(0,0,0,.3);
+  margin-top: 0.25rem;
+}
+
+.show_issues {
+  font-size: 0.8rem;
+  color: #333;
+  white-space: nowrap;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  
+  .table_head th, 
+  .table_body td {
+    padding: 1rem;
+    font-size: 0.8rem;
+  }
+}

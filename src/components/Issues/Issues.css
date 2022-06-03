@@ -1,0 +1,26 @@
+.issue_wrapper {
+  background-color: white;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.issue_body, .issue_title {
+  display: flex;
+}
+
+.issue_body {
+  margin-top: 1rem;
+}
+
+.bold_text {
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-right: 1rem;
+}
+
+.light_text {
+  color: #333;
+  font-size: 0.8rem;
+}
